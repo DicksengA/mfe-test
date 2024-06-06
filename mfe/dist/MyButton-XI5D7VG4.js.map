@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/button/MyButton.tsx"],
+  "sourcesContent": ["import React from \"react\"\nimport {createRoot} from \"react-dom/client\";\nimport '@patternfly/react-core/dist/styles/base.css';\nimport {Button} from \"@patternfly/react-core\";\n\nexport const MyButton = () => {\n    const [counter, setCounter] = React.useState(0)\n    const handleClick = () => {\n        console.log(\"Clicked\")\n        setCounter(prevState => prevState + 1)\n    }\n    return <Button\n    >Counter {counter}</Button>\n}\n\nexport class MyButtonMFE extends HTMLElement {\n    connectedCallback() {\n        let root = createRoot(this);\n        root.render(<MyButton/>)\n    }\n}\n\ncustomElements.define(\"mxms-button\", MyButtonMFE)"],
+  "mappings": ";;;AAAA,OAAO,WAAW;AAClB,SAAQ,kBAAiB;AACzB,OAAO;AACP,SAAQ,cAAa;AAEd,IAAM,WAAW,MAAM;AAC1B,QAAM,CAAC,SAAS,UAAU,IAAI,MAAM,SAAS,CAAC;AAC9C,QAAM,cAAc,MAAM;AACtB,YAAQ,IAAI,SAAS;AACrB,eAAW,eAAa,YAAY,CAAC;AAAA,EACzC;AACA,SAAO;AAAA,IAAC;AAAA;AAAA,IACP;AAAA,IAAS;AAAA,EAAQ;AACtB;AAEO,IAAM,cAAN,cAA0B,YAAY;AAAA,EACzC,oBAAoB;AAChB,QAAI,OAAO,WAAW,IAAI;AAC1B,SAAK,OAAO,oCAAC,cAAQ,CAAE;AAAA,EAC3B;AACJ;AAEA,eAAe,OAAO,eAAe,WAAW;",
+  "names": []
+}

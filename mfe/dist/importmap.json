@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "react": "react-18_3_1.js",
+    "react/jsx-runtime": "react_jsx_runtime-18_3_1.js",
+    "react/jsx-dev-runtime": "react_jsx_dev_runtime-18_3_1.js",
+    "react-dom": "react_dom-18_3_1.js",
+    "react-dom/client": "react_dom_client-18_3_1.js",
+    "react-dom/server.browser": "react_dom_server_browser-18_3_1.js",
+    "react-dom/profiling": "react_dom_profiling-18_3_1.js"
+  }
+}

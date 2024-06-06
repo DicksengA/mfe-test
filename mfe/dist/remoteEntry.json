@@ -1,0 +1,67 @@
+{
+  "name": "mfe",
+  "shared": [
+    {
+      "packageName": "react",
+      "outFileName": "react-18_3_1.js",
+      "requiredVersion": true,
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1"
+    },
+    {
+      "packageName": "react/jsx-runtime",
+      "outFileName": "react_jsx_runtime-18_3_1.js",
+      "requiredVersion": true,
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1"
+    },
+    {
+      "packageName": "react/jsx-dev-runtime",
+      "outFileName": "react_jsx_dev_runtime-18_3_1.js",
+      "requiredVersion": true,
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1"
+    },
+    {
+      "packageName": "react-dom",
+      "outFileName": "react_dom-18_3_1.js",
+      "requiredVersion": true,
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1"
+    },
+    {
+      "packageName": "react-dom/client",
+      "outFileName": "react_dom_client-18_3_1.js",
+      "requiredVersion": true,
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1"
+    },
+    {
+      "packageName": "react-dom/server.browser",
+      "outFileName": "react_dom_server_browser-18_3_1.js",
+      "requiredVersion": true,
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1"
+    },
+    {
+      "packageName": "react-dom/profiling",
+      "outFileName": "react_dom_profiling-18_3_1.js",
+      "requiredVersion": true,
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1"
+    }
+  ],
+  "exposes": [
+    {
+      "key": "./component",
+      "outFileName": "./component-f35292bbc646fbe075de6a2798e6e2f7.js"
+    }
+  ]
+}
